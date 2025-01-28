@@ -1,0 +1,53 @@
+
+.parent {
+    display: grid;
+    grid-template-rows: repeat(3, 0.1fr);
+    gap: 8px;
+}
+    
+
+
+
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-row-start: 2;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #bbb;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+
+
+        
